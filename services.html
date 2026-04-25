@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Services | Losier Appliance Repair</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<nav id="nav-main">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<h1>Services</h1>
+</header>
+<main>
+<ul>
+<li>Washer Repair</li>
+<li>Dryer Repair</li>
+<li>Refrigerator Repair</li>
+</ul>
+</main>
+<script>
+const links = document.querySelectorAll('#nav-main a');
+const currentPage = window.location.pathname.split("/").pop();
+links.forEach(link => {
+if (link.getAttribute("href") === currentPage) {
+link.classList.add("active");
+}
+});
+</script>
+</body>
+</html>
