@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Services | Losier Appliance Repair</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Losier Appliance Repair Corporation</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/namari-color.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet">
 </head>
+
 <body>
-<header>
-<nav id="nav-main">
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
-<h1>Services</h1>
+
+<div id="wrapper">
+
+<header id="banner" class="scrollto clearfix">
+    <div id="header" class="nav-collapse">
+        <div class="row clearfix">
+            <div class="col-1">
+                <div id="logo">
+                    <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                    <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                </div>
+
+                <nav id="nav-main">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="clients.html">Clients</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div id="nav-trigger"><span></span></div>
+                <nav id="nav-mobile"></nav>
+            </div>
+        </div>
+    </div>
+
+    <div id="banner-content" class="row clearfix">
+        <div class="col-38">
+            <div class="section-heading">
+                <h1>LOSIER ADVANCED APPLIANCE REPAIR</h1>
+                <h2>Want it done right? Choose Losier.</h2>
+            </div>
+            <a href="contact.html" class="button">CONTACT US</a>
+        </div>
+    </div>
 </header>
-<main>
-<ul>
-<li>Washer Repair</li>
-<li>Dryer Repair</li>
-<li>Refrigerator Repair</li>
-</ul>
-</main>
-<script>
-const links = document.querySelectorAll('#nav-main a');
-const currentPage = window.location.pathname.split("/").pop();
-links.forEach(link => {
-if (link.getAttribute("href") === currentPage) {
-link.classList.add("active");
-}
-});
-</script>
-</body>
-</html>
+
+<main id="content">
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="scrollto clearfix">
+    <div class="row clearfix">
+        <div class="section-heading text-center">
+            <h3>CONTACT</h3>
+            <h2 class="section-title">Send Us a Message</h2>
+        </div>
+
+        <div class="col-2-3" style="margin: 0 auto; float: none;">
+
+            <form action="https://formspree.io/f/xwvnqegg" method="POST">
+
+                <label> ashtonlo1216@gmail.com
