@@ -1,0 +1,51 @@
+
+/* ✅ Banner background (keeps template behavior) */
+#banner {
+    background-position: center;
+    background-size: cover;
+}
+
+/* ✅ Ensure banner has height on all pages */
+#banner-content.row {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+/* ✅ Active nav link */
+#header nav a.active {
+    border-bottom: 3px solid #e4473c;
+    color: #e4473c !important;
+    opacity: 1;
+}
+
+/* ✅ Improve standalone page spacing */
+main#content {
+    padding-top: 40px;
+}
+
+/* ✅ Center content nicely */
+main#content .row {
+    text-align: center;
+}
+
+/* ✅ Keep sections clean but NOT override template */
+main#content section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* ✅ Fix your broken CSS bug */
+.client-overlay {
+    top: 0;
+}
+
+/* ✅ Button polish (safe) */
+.button:hover {
+    transform: translateY(-2px);
+}
+
+/* ✅ Slight background so pages don’t feel empty */
+body {
+    background-color: #f8f9fb;
+}
